@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PetWar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yes_msg">Thanks!</string>
+    <string name="no_msg">Oh no!!</string>
+    <string name="cat_name_0">Oscar</string>
+    <string name="cat_name_1">Simba</string>
+    <string name="cat_name_2">Missy</string>
+    <string name="cat_name_3">Toby</string>
+    <string name="cat_name_4">Tigger</string>
+</resources>
