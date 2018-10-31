@@ -45,7 +45,7 @@ A small window will show up with different layouts. Choose LinearLayout.
 ## Preparing the UI
 There are many ways you can play around with Fragments. For my implementation, I add in a RadioGroup with many radio buttons and some text views. Here is what the layout looks like:
 
-![Fragment Layout](imgs/img_4.png)
+![Fragment Layout](imgs/img_4.PNG)
 
 In order to add these items, simply find the object from the **Palette** panel and drag-drop to the **Component Tree**. You can also change the properties accordingly to make it look neat. For my implementation, I want to allow the user to decide whether the user loves the kitten displayed by choosing between *Yes* or *No*.
 
@@ -53,7 +53,7 @@ In order to add these items, simply find the object from the **Palette** panel a
 
 After you have successfully added the objects to the fragment layout, you can start giving these some functionalities by some codes. In my case, I want to have a comment text appearing next to the choice accordingly. Here is the code example for my implementation:
 
-![Code Example](imgs/img_5.png)
+![Code Example](imgs/img_5.PNG)
 
 Your code should go into **onCreateView()** and match with the id that you give to the items in the Fragment layout. What I did is I give some interaction whenever *Yes* or *No* is chosen. (*Yes* is index 1 in *radio_group*, *No* is index 2 in *radio_group*)
 
@@ -61,15 +61,15 @@ Your code should go into **onCreateView()** and match with the id that you give 
 ## Fragments and More Stuffs!
 Go back to your **activity_main.xml** and add **<fragment>** from **Palette panel > Common**. Choose **SimpleFragment** from the pop-up window. 
 
-![Add fragment](imgs/img_6.png)
+![Add fragment](imgs/img_6.PNG)
 
 Make sure you give constraints to this fragment to fit on the layout accordingly. You should have something similar to this:
 
-![activity_main example](imgs/img_7.png)
+![activity_main example](imgs/img_7.PNG)
 
 Feel free to add more stuffs to make your application even more interesting to use, such as having more buttons, etc. Try not to overdo since you still want to keep the UI neat. Here is the end result of my implementation:
 
-![Final Look](imgs/img_8.png)
+![Final Look](imgs/img_8.PNG)
 
 
 ## Summary
