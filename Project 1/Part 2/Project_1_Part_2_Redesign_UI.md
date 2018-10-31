@@ -74,6 +74,6 @@ Feel free to add more stuffs to make your application even more interesting to u
 
 ## Summary
 In this tutorial, we have accomplished several things:
-_ Make a Fragment and add to the main application
-_ A brief glimpse at using layouts to redesign UI (which is not used as part of the main UI redesign, only for Fragment)
-_ Make objects such as radio buttons interactive
+- Make a Fragment and add to the main application
+- A brief glimpse at using layouts to redesign UI (which is not used as part of the main UI redesign, only for Fragment)
+- Make objects such as radio buttons interactive
