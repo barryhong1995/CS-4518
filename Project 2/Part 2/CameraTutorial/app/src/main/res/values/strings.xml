@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CameraTutorial</string>
+    <string name="click">Snap!</string>
+    <string name="default_text">Click the button to take a picure!</string>
+    <string name="date">Date:</string>
+    <string name="shake">Shake:</string>
+    <string name="flip">Flip:</string>
+    <string name="orientation">Orientation:</string>
+    <string name="proximity">Proximity:</string>
+    <string name="light">Light:</string>
+    <string name="datePlaceholder">MM / DD / YYYY</string>
+    <string name="unknown">Unknown</string>
+    <string name="time">Time:</string>
+    <string name="timePlaceholder">00:00:00</string>
+</resources>

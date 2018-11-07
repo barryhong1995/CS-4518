@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CameraTutorial</string>
+    <string name="click">Click!</string>
+    <string name="default_text">Click the button to take a picure!</string>
+</resources>
