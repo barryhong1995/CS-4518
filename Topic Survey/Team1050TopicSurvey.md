@@ -1,4 +1,4 @@
-author: Hannah Jauris, Hung Hong
+﻿author: Hannah Jauris, Hung Hong
 summary: CS4518 Topic Survey - Intro to Encryption in Android
 categories: cryptography, encryption, decryption, sms
 environment: java
@@ -19,20 +19,20 @@ Before we begin, you will need the following starter code for the application na
 
 In this starter code, we have already set up the functionality to send SMS to other devices. The starter code’s UI consists of two editable text fields that allow you to type in messages and the number of the emulator you want to send a message to, a button to send the message in the message field, and two buttons for encryption and decryption which currently do not do anything. It also contains a text field where users can enter a key used to encrypt and decrypt messages.
 
-![Image of UI](imgs/UI.png)
+![Image of UI](imgs/UI.PNG)
 
 Let’s test the starter code by running the application on 2 devices at the same time, which we will show you on the next step.
 
 ## Setup Testing Environment
 First, open AVD Manager. We assume you already have one virtual device set up. Create another one with similar settings to the first, using the `Create Virtual Device…` button in the lower left of the AVD manager. **DO NOT DUPLICATE** your existing device, as it may not allow you to open both of those virtual devices at the same time.
 
-![2 virtual devices in AVD Manager](imgs/AVDMenu.png)
+![2 virtual devices in AVD Manager](imgs/AVDMenu.PNG)
 
 Next, we will run the application on both devices, and test sending a message from one to the other.
 
 The device number can be seen when you choose the devices to open. (You can also find this number by going to `...` on the emulator’s side menu, then `Help -> About` and finding the number under the serial number field.)  By default, the numbers are 5554 and 5556. Test the application by entering the recipient device number and a message to be sent. Press Send once you are done. You should see the message being received, unencrypted, on the other device:
 
-![One device receiving the message from another](imgs/TwoDevices.png)
+![One device receiving the message from another](imgs/TwoDevices.PNG)
 
 ## Encryption
 ### Preparation
@@ -103,7 +103,7 @@ private static byte[] hex2byte(byte[] b) {
 
 Call `byte2hex` and pass in the results of our encryption, then use `setText()` on the EditText field for the message to update the message text with the encrypted, hex-ified version of it. We can now send encrypted messages!
 
-![2 devices, one sends encrypted message to other](imgs/SendEncrypted.png)
+![2 devices, one sends encrypted message to other](imgs/SendEncrypted.PNG)
 
 **Note**: There are many ways to implement the functions `getInstance`, `init`, and `doFinal`, i.e. different numbers and types of parameters to use. Check it out on https://developer.android.com/reference/javax/crypto/Cipher if you are interested to learn more to apply to various situations.
 
@@ -132,7 +132,7 @@ We can then update the `receivedMessage` text field to show our decrypted messag
 ## Result
 As discussed in the previous sections, our application can perform simple SMS functionality, in particular sending and receiving SMS message between devices. We can test our results by sending the encrypted message from one device to another. On the receiving device, make sure to enter the same key that we use for encryption to decrypt the message. We should obtain the original message as a result.
 
-![2 devices, showing one receives and decrypts message successfully](imgs/AbleToDecrypt.png)
+![2 devices, showing one receives and decrypts message successfully](imgs/AbleToDecrypt.PNG)
 
 ## Summary
 In this tutorial, we have accomplished several goals, in particular:
